@@ -2,10 +2,13 @@
 This repository consists of files on key-value data store 
 operations performed are :
 
-  1 for Create (--client --key  --ttl(optional) --value --filepath(optional)) 
-	2 for Read (--client --key --filepath(optional)) 
-	3 for Delete (--client --key --filepath(optional)) 
-	4 for Reset (--client --filepath(optional))
+ 1 for Create (--client --key  --ttl(optional) --value --filepath(optional)) 
+  
+2 for Read (--client --key --filepath(optional))
+	
+3 for Delete (--client --key --filepath(optional))
+	
+4 for Reset (--client --filepath(optional))
   
  init.py :
   all initialization of operations 
