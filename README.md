@@ -9,6 +9,8 @@ operations performed are :
   
  init.py :
   all initialization of operations 
+  
+  
  oprt.py :
  performed all operations
  
@@ -89,3 +91,79 @@ Create Operation Done
 Error Status : checking2 - Client_file_doesnot_exist
 
 Thread-safe Testing done
+
+
+______________________________________________________OUTPUT OF TETREAD.PY______________________________________________________________________________________
+
+
+
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser
+enter value1
+Error Status : Value's datatype should be JSON object (Dict)
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser
+enter value{"hi":"1"}
+Create Operation Done
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser1
+enter value{"hello":"2"}
+Create Operation Done
+select 1.create 
+ 2.read 
+3.delete 
+2
+enter keyuser
+For key | user | value  - {'hi': '1'} 
+select 1.create 
+ 2.read 
+3.delete 
+2
+enter keyuser1
+For key | user1 | value  - {'hello': '2'} 
+select 1.create 
+ 2.read 
+3.delete 
+3
+enter keyuser
+Error Status : For key | user | value - is deleted
+select 1.create 
+ 2.read 
+3.delete 
+2
+enter keyuser
+Key | user | not found for client - Access_store 
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser 
+enter value{"hi":"1"}
+Create Operation Done
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser
+enter value{"hauer":"2"}
+Create Operation Done
+select 1.create 
+ 2.read 
+3.delete 
+1
+enter keyuser
+enter value{"hi":"1"}
+Error Status : Key | user | already exist , value - {'hauer': '2'} 
+select 1.create 
+ 2.read 
+3.delete 
+
